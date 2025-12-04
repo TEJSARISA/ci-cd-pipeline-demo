@@ -1,0 +1,24 @@
+{
+  "name": "ci-cd-pipeline-demo",
+  "version": "1.0.0",
+  "description": "Complete GitHub Actions CI/CD Pipeline with automated build, test, and deployment",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src",
+    "build": "echo 'Build completed'"
+  },
+  "keywords": ["CI/CD", "GitHub Actions", "DevOps"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "eslint": "^8.40.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
